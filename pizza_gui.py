@@ -4,7 +4,6 @@ from tkinter import *
 from tkinter import ttk
 from PIL import ImageTk, Image
 from tkinter import messagebox
-import os
 
 class Pizza():
     def get_description(self):
