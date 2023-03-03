@@ -4,7 +4,7 @@ from tkinter import *
 from tkinter import ttk
 from PIL import ImageTk, Image
 from tkinter import messagebox
-
+import os
 
 class Pizza():
     def get_description(self):
@@ -97,6 +97,7 @@ class Corn(SauceDecorator):
     
 baseTypes = ['Classic Pizza', 'Margherita Pizza', 'Turk Pizza','Plain Pizza']
 sauces = ['Olives', 'Mushrooms', 'Goat Cheese', 'Meat', 'Onions', 'Corn']
+
 
 
 def run_order():
